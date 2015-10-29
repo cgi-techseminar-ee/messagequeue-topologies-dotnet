@@ -1,0 +1,15 @@
+﻿@model IEnumerable<Common.Ministry>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Sõidame!</h1>
+
+    <ul>
+        @foreach (var m in Model)
+        {
+            <li>@Html.ActionLink(m.Name, "Go", new { m.Id }) - @m.Address</li>
+        }
+    </ul>
+</div>

@@ -1,0 +1,32 @@
+﻿1	Shanghai	PudongSkyline-pjt (cropped).jpg	24,150,000[6]	Municipality[7][8]	6,340.5	3,809	 China
+2	Karachi	Karachi sky line.jpg	23,500,000[9]	Metropolitan Corporation[10]	3,527	6,663	 Pakistan
+3	Lagos	Lagos Island.jpg	21,324,000[11]	Local Government Area	1,171.28[12]	18,206	 Nigeria
+4	Delhi	LotusDelhi.jpg	16,787,941[13]	National Capital Territory	1,483	11,320	 India
+5	Istanbul	Halic.png	14,377,019[14]	Metropolitan Municipality-Province[15]	5,461[16]	2,633	 Turkey
+7	Tokyo	Skyscrapers of Shinjuku 2009 January (revised).jpg	13,297,629[17]	City prefecture	2,189[18]	6,075	 Japan
+9	Mumbai	Mumbai Skyline at Night.jpg	12,478,447[19]	Municipal Corporation[20]	603.4	20,680	 India
+10	Moscow	Kremlevskaya Naberezhnaja Moscow.hires.jpg	12,197,596[21]	Federal City[22][23]	2,510.12[24]	4,859	 Russia
+12	São Paulo	Ponte estaiada Octavio Frias - Sao Paulo.jpg	11,895,893[25]	Municipality City[26]	1,521.11	7,821	 Brazil
+13	Beijing	View of Beijing.jpg	11,716,620[27]	Core districts[28]	1,368.3	8,563	 China
+14	Shenzhen	Shenzhen CBD and River.jpg	10,467,400[29]	Sub-provincial City	1,991.64[30]	5,256	 China
+15	Seoul	View of YangJe-Cheon.jpg	10,388,055[31]	Special City	605.21[32]	17,164	 South Korea
+16	Lahore	Kalma Underpass1.jpg	10,052,000[33]	City District	1,772[33]	5,673	 Pakistan
+17	Jakarta	Jakarta City Skyline.jpg	9,988,329[34]	Capital Region – Five Kota[35]	664.12	15,040	 Indonesia
+8	Guangzhou	Guangzhou skyline.jpg	12,700,800[36]	Sub-provincial City[37]	2,089.53	4,722	 China
+18	Kinshasa	Kinshasa-Gombe, from CCIC.JPG	9,735,000[38][39][full citation needed]	Metropolitan Municipality-Province[40]	1,117.62[41]	8,710	 Democratic Republic of the Congo
+5	Tianjin	炫彩津门99海河夜景.jpg	9,340,548[42]	Municipality[43]	4,037[44]	2,314	 China
+11	Cairo	Kairo 001.jpg	9,278,441[45]	Governorate[46]	3,085.1[47]	3,008	 Egypt
+19	Mexico City	Ciudad.de.Mexico.City.Distrito.Federal.DF.Paseo.Reforma.Skyline.jpg	8,874,724[48]	Federal District	1,485.49[49]	5,974	 Mexico
+20	Lima	City of Lima, Peru.jpg	8,693,387[50]	Metropolitan Municipality-Province[51]	2,672.3	3,253	 Peru
+21	New York City	LowerManhattanSept2013.png	8,491,079[52]	City[53]	783.84	10,833	 United States
+22	Bengaluru	UB City.jpg	8,425,970[19]	Municipal Corporation	709.5[54]	11,876	 India
+23	London	Canary Wharf Skyline 2, London UK - Oct 2012.jpg	8,416,500[55]	Greater London Authority[56]	1,572.15	5,362	 United Kingdom
+24	Bangkok	The Baiyoke Tower II in Bangkok, Thailand.jpg	8,280,925[57]	Metropolitan Municipality-Province[58]	1,568.74	5,279	 Thailand
+25	Dongguan	Dongguan -03.jpg	8,220,207[59]	Prefecture-level City	2,469.4	3,329	 China
+25	Chongqing	SkylineOfChongqing.jpg	8,189,800[a]	Central Chongqing[b]
+Municipality	5,473[c]	1,496	 China
+26	Nanjing	Nanjingpanorama001.jpg	8,187,828[64]	Sub-provincial City	4,713.85	1,737	 China
+27	Tehran	North Tehran Towers.jpg	8,154,051[65]	City Municipality[66]	686[67]	11,886	 Iran
+28	Shenyang	Shenyang Qingnian Street.JPG	8,106,171[68]	Sub-provincial City	12,942	626	 China
+29	Bogotá	Centro-Internacional-Bogotá.jpg	7,776,845[69]	Capital District[70]	859.11[71][72]	9,052	 Colombia
+30	Ho Chi Minh City	Một khúc sông Sài Gòn.JPG	7,681,700[73]	Metropolitan Municipality-Province	2,095.6[74]	3,666	 Vietnam
