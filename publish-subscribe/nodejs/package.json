@@ -1,0 +1,10 @@
+{
+	"name": "evergreen-messaging",
+	"description": "Messaging for Evergreen Medical",
+	"version": "0.0.1",
+	"dependencies": {
+		"amqplib": "",
+        "socket.io": "",
+		"express": ""
+	}
+}

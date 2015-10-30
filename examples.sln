@@ -31,10 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PS.Statistics", "publish-su
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nodejs", "nodejs", "{75542948-37DD-4832-9BAA-5C38500E1AF7}"
 	ProjectSection(SolutionItems) = preProject
-		..\nodejs\api_queue.js = ..\nodejs\api_queue.js
-		..\nodejs\index.html = ..\nodejs\index.html
-		..\nodejs\package.json = ..\nodejs\package.json
-		..\nodejs\server.js = ..\nodejs\server.js
+		publish-subscribe\nodejs\api_queue.js = publish-subscribe\nodejs\api_queue.js
+		publish-subscribe\nodejs\index.html = publish-subscribe\nodejs\index.html
+		publish-subscribe\nodejs\package.json = publish-subscribe\nodejs\package.json
+		publish-subscribe\nodejs\server.js = publish-subscribe\nodejs\server.js
 	EndProjectSection
 EndProject
 Global

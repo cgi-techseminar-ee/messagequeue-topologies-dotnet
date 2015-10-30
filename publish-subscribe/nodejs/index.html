@@ -1,0 +1,130 @@
+﻿<!doctype html>
+<html>
+
+<head>
+	<title>Messaging</title>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<meta charset="utf-8">
+	<style>
+		body {
+			margin: 0;
+			height: 100vh;
+		}
+
+		.container {
+			padding: 0;
+			margin: 0;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+		}
+
+		.input-container {
+			width: 100%;
+			height: 50px;
+			box-sizing: border-box;
+			align-items: center;
+			display: flex;
+		}
+
+		#map-canvas {
+			margin: 0;
+			padding: 0;
+			-ms-flex: 1;
+			-webkit-flex: 1;
+			flex: 1;
+			height: 100%;
+		}
+
+		input[type=text] {
+			width: 90%;
+			height: 100%;
+			font-family: monospace;
+			font-size: 30px;
+			text-align: center;
+			color: #666;
+			border-width: 0;
+		}
+
+		button {
+			width: 10%;
+			height: 100%;
+			font-family: monospace;
+			font-size: 30px;
+			text-align: center;
+			color: #000;
+			background-color: #fff;
+			border-width: 0;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="input-container">
+			<input type="text" value="Punane 22, 13619 Tallinn" id="input-address" />
+			<button onclick="btnClick()">Directions</button>
+		</div>
+		<div id="map-canvas"></div>
+	</div>
+
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<script>
+		var geocoder = new google.maps.Geocoder();
+		var directionsDisplay;
+		var directionsService = new google.maps.DirectionsService();
+		var map;
+		var fromCoord = new google.maps.LatLng(59.401752, 24.713659);
+
+		function btnClick() {
+			setDirections(document.getElementById('input-address').value);
+		}
+
+		function setDirections(toAddress) {
+			geocoder.geocode({ 'address': toAddress }, function (results, status) {
+				if (status == google.maps.GeocoderStatus.OK) {
+					var request = {
+						origin: fromCoord,
+						destination: results[0].geometry.location,
+						travelMode: google.maps.TravelMode["DRIVING"]
+					};
+					directionsService.route(request, function (response, status) {
+						if (status == google.maps.DirectionsStatus.OK) {
+							directionsDisplay.setDirections(response);
+						}
+					});
+					map.setCenter();
+				} else {
+					alert('Geocode was not successful for the following reason: ' + status);
+				}
+			});
+		}
+
+		function initialize() {
+			directionsDisplay = new google.maps.DirectionsRenderer();
+			var mapOptions = {
+				mapTypeId: google.maps.MapTypeId.ROADMAP,
+				zoom: 12,
+				center: fromCoord
+			};
+			map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+			directionsDisplay.setMap(map);
+
+			var marker = new google.maps.Marker({
+				map: map,
+				position: fromCoord
+			});
+			map.setCenter(fromCoord);
+		}
+
+		google.maps.event.addDomListener(window, 'load', initialize);
+
+		var socket = io();
+		socket.on('newLocation', function (message) {
+			document.getElementById('input-address').value = message.location;
+			setDirections(message.location);
+		});
+	</script>
+</body>
+</html>
